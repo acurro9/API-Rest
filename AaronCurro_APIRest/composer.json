@@ -1,0 +1,13 @@
+{
+    "name": "aaron/web-service",
+    "description": "Tarea DWES07",
+    "authors": [
+        {
+            "name": "acurro9",
+            "email": "asbarxas.aaroncurro@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}

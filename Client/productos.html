@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Productos</title>
+  </head>
+  <body class="body_table">
+    <div>
+      <form id="pro_form">
+        <fieldset>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="pro_nom" />
+
+          <label for="precio">Precio:</label>
+          <input type="number" id="pro_precio" />
+
+          <label for="cantidad">Cantidad:</label>
+          <input type="number" id="pro_cant" />
+
+          <label for="categoria">Categoria:</label>
+          <select id="cat_id">
+            <option value="">--Seleccionar--</option>
+          </select>
+          <input type="submit" value="Enviar" id="pro_btn" />
+        </fieldset>
+      </form>
+
+      <a href="./index.html">Volver</a>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Categoria</th>
+        </tr>
+      </thead>
+      <tbody id="pro_tbody"></tbody>
+    </table>
+
+    <script src="../js/producto.js"></script>
+    <script src="../js/jQuery.js"></script>
+  </body>
+</html>
